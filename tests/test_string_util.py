@@ -1,4 +1,4 @@
-from src.string_utils import reverse_string, to_upper, to_lower, count_vowels
+from string_utils import reverse_string, to_upper, to_lower, count_vowels
 def test_reverse_string():
     assert reverse_string("hello") == "olleh"
 
