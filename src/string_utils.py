@@ -1,12 +1,11 @@
-def reverse_string(text: str)->str:
-    return text[::-1]
+def reverse_string(s: str) -> str:
+    return s[::-1]
 
-def to_upper(text: str)->str:
-    return text.upper()
+def to_upper(s: str) -> str:
+    return s.upper()
 
-def to_lower(text: str)->str:
-    return text.lower()
+def to_lower(s: str) -> str:
+    return s.lower()
 
-def count_vowels(text: str)->int:
-    vowels="aeiouAEIOU"
-    return sum(1 for char in text if char in vowels)
+def count_vowels(s: str) -> int:
+    return sum(1 for c in s.lower() if c in "aeiou")
